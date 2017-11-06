@@ -5,6 +5,6 @@ function kittens() {
 }
 
 function destructivelyAppendKitten(name) {
-  kittens.shift("Ralph")
+  kittens.push("Ralph")
   return kittens
 }
